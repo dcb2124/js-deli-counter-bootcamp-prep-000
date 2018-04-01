@@ -21,7 +21,7 @@ function currentLine(line){
  
  //https://stackoverflow.com/questions/7837456/how-to-compare-arrays-in-javascript
  //=== won't work
-   if (line.length > 0)){
+   if (line.length > 0){
      
     status = "The line is currently:"
     for (var i = 0; i < line.length; i++){
