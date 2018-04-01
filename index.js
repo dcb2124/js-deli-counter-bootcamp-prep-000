@@ -1,1 +1,1 @@
-function takeANumber
+var katzDeli = []
