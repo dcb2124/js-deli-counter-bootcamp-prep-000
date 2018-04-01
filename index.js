@@ -36,4 +36,4 @@ function currentLine(line){
   
 }
 
-console.log(currentLine(["allen", "bob", "cathy"]))
+console.log(currentLine([]))
