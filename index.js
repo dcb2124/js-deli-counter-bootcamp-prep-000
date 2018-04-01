@@ -19,7 +19,8 @@ function currentLine(line){
   
   var string = "The line is currently empty."
  
-  if (line != []){
+ 
+   if (line != []){
     
     string = "The line is currently:"
     for (var i = 0; i < line.length; i++){
