@@ -18,6 +18,7 @@ function currentLine(line){
   
   
   var string = "The line is currently empty."
+ 
   if (line != []){
     
     string = "The line is currently:"
