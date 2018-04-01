@@ -20,7 +20,7 @@ function currentLine(line){
   var status = "The line is currently empty."
  
  
-   if (line != []){
+   if (line === []){
      
     status = "The line is currently:"
     for (var i = 0; i < line.length; i++){
@@ -36,4 +36,4 @@ function currentLine(line){
   
 }
 
-console.log(currentLine([]))
+console.log(currentLine(["allen", "bob", "cathy"]))
