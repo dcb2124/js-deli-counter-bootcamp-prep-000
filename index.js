@@ -16,20 +16,18 @@ function nowServing(line){
 
 function currentLine(line){
   
-  if (line === []){
-    return "The line is currently empty"
-  }
   
   var string = "The line is currently:"
-  
-  for (var i = 0; i < line.length; i++){
-    
-    string = string + ` ${i+1}. ${line[i]}`
-    if (i != line.length - 1){
-      string = string + ","
+  if (line != []){
+    for (var i = 0; i < line.length; i++){
+      
+      string = string + ` ${i+1}. ${line[i]}`
+      if (i != line.length - 1){
+        string = string + ","
+      }
     }
   }
-  
+    
   return string
   
 }
