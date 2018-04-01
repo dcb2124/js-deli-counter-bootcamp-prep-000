@@ -25,7 +25,7 @@ function currentLine(line){
     status = "The line is currently:"
     for (var i = 0; i < line.length; i++){
       
-      string = string + ` ${i+1}. ${line[i]}`
+      status = string + ` ${i+1}. ${line[i]}`
       if (i != line.length - 1){
         string = string + ","
       }
