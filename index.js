@@ -17,8 +17,10 @@ function nowServing(line){
 function currentLine(line){
   
   
-  var string = "The line is currently:"
+  var string = "The line is currently empty."
   if (line != []){
+    
+    string = "The line is currently:"
     for (var i = 0; i < line.length; i++){
       
       string = string + ` ${i+1}. ${line[i]}`
@@ -26,7 +28,7 @@ function currentLine(line){
         string = string + ","
       }
     }
-  } else string = "The line is currently empty."
+  } else string = 
     
   return string
   
