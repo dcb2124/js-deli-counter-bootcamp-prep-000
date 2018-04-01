@@ -9,7 +9,12 @@ function takeANumber(line, newPerson){
 
 function nowServing(line){
   
-  line.splice
+  if (line.length === 0){
+    return "There is nobody waiting to be served!"
+  }
+  
+  return 
+  
   
 }
 
