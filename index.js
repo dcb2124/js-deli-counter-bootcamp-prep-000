@@ -26,7 +26,7 @@ function currentLine(line){
         string = string + ","
       }
     }
-  }
+  } else string = "The line is currently empty."
     
   return string
   
