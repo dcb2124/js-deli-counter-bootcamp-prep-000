@@ -15,11 +15,8 @@ function nowServing(line){
   
   current = line[0]
   line.shift()
-  return `Currently serving ${current]}.`
-  
-  
-  
-  
+  return `Currently serving ${current}.`
+
 }
 
 
