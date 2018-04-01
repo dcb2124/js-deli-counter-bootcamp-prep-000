@@ -13,7 +13,9 @@ function nowServing(line){
     return "There is nobody waiting to be served!"
   }
   
-  return 
+  return `Currently serving ${line[0]}.`
+  
+  
   
   
 }
