@@ -21,7 +21,7 @@ function currentLine(line){
  
  //https://stackoverflow.com/questions/7837456/how-to-compare-arrays-in-javascript
  //You have to use the .equals method, === won't work. Because they are two different objects.
-   if (line == []){
+   if (line.equals([])){
      
     status = "The line is currently:"
     for (var i = 0; i < line.length; i++){
