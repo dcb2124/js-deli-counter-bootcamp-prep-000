@@ -32,7 +32,7 @@ function currentLine(line){
     }
   }
     
-  return string
+  return status
   
 }
 
