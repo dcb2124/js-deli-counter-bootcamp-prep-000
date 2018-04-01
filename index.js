@@ -21,7 +21,7 @@ function currentLine(line){
   for (var i = 1; i < line.length; i++){
     
     string = string + ` ${i+1}. ${line[i]}`
-    if (i !== line.length - 1){
+    if (i != line.length - 1){
       string = string + ","
     }
   }
