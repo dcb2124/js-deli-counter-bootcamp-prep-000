@@ -27,7 +27,7 @@ function currentLine(line){
       
       status = status + ` ${i+1}. ${line[i]}`
       if (i != line.length - 1){
-        status = string + ","
+        status = status + ","
       }
     }
   }
