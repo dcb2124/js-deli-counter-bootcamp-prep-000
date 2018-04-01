@@ -20,7 +20,7 @@ function currentLine(line){
   var status = "The line is currently empty."
  
  //https://stackoverflow.com/questions/7837456/how-to-compare-arrays-in-javascript
- //=== won't work
+ //=== won't work between arrays, you have to compare elements or use another library.
    if (line.length > 0){
      
     status = "The line is currently:"
