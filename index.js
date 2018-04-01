@@ -21,7 +21,7 @@ function currentLine(line){
  
  
    if (line != []){
-    
+     
     status = "The line is currently:"
     for (var i = 0; i < line.length; i++){
       
