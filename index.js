@@ -22,7 +22,7 @@ function currentLine(line){
  
    if (line != []){
     
-    string = "The line is currently:"
+    status = "The line is currently:"
     for (var i = 0; i < line.length; i++){
       
       string = string + ` ${i+1}. ${line[i]}`
