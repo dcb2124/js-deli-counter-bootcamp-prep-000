@@ -28,7 +28,7 @@ function currentLine(line){
         string = string + ","
       }
     }
-  } else string = 
+  }
     
   return string
   
