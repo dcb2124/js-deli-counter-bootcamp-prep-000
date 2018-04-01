@@ -19,7 +19,8 @@ function currentLine(line){
   
   var status = "The line is currently empty."
  
- 
+ //https://stackoverflow.com/questions/7837456/how-to-compare-arrays-in-javascript
+ //You have to use the .equals method, === won't work. Because they are two different objects.
    if (line == []){
      
     status = "The line is currently:"
