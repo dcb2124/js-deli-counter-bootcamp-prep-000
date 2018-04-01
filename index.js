@@ -17,7 +17,7 @@ function nowServing(line){
 function currentLine(line){
   
   
-  var string = "The line is currently empty."
+  var status = "The line is currently empty."
  
  
    if (line != []){
